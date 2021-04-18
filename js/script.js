@@ -1,3 +1,5 @@
+
+let channel_max = 20;
 let audiochannels = [];
 
 //init channels
