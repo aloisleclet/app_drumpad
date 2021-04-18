@@ -1,0 +1,14 @@
+{
+  "name": "pad",
+  "version": "1.0.0",
+  "description": "pad",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node-sass -w ./scss -o ./css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

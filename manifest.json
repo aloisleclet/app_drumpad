@@ -1,0 +1,18 @@
+{
+  "name": "drumpad",
+  "short_name": "drumpad",
+  "start_url": "/drumpad/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "icons": [
+  {
+    "src": "https://apps.aloisleclet.fr/app_drumpad/img/ic_128.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://apps.aloisleclet.fr/app_drumpad/img/ic_250.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  } 
+  ]
+}

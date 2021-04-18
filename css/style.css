@@ -1,0 +1,55 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  body .wrap {
+    width: 88vw;
+    height: calc(100vh - 5vw);
+    position: relative;
+    margin: 3vw 6vw;
+    display: flex;
+    flex-flow: column; }
+    body .wrap .row {
+      max-width: 100%;
+      width: 88vw;
+      height: 50vh;
+      display: flex;
+      flex-flow: row wrap; }
+      body .wrap .row:first-child {
+        margin-bottom: 0vw; }
+      body .wrap .row .wrap-pad {
+        width: 20vw;
+        position: relative;
+        margin: 1vw; }
+        body .wrap .row .wrap-pad .pad {
+          width: 100%;
+          display: block;
+          border-radius: 10px;
+          background: black radial-gradient(#2e3338, black);
+          position: absolute;
+          padding-top: 100%;
+          transition: all ease 0.7s;
+          box-shadow: -2px 10px 20px #3AAFB9;
+          color: rgba(0, 0, 0, 0);
+          perspective: 80px;
+          outline: none; }
+          body .wrap .row .wrap-pad .pad p {
+            user-select: none;
+            position: absolute;
+            top: 1.5vw;
+            left: 1.5vw;
+            font-family: arial;
+            color: white;
+            line-height: 16px;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            transition: all ease 0.1s;
+            display: inline-block;
+            text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0, 0, 0, 0.8) 0 30px 25px; }
+          body .wrap .row .wrap-pad .pad:active {
+            box-shadow: 0px 0px 0px green; }
+            body .wrap .row .wrap-pad .pad:active p {
+              color: #3AAFB9; }
